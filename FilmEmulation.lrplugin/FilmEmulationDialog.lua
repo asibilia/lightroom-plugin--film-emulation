@@ -53,7 +53,7 @@ local function applyFilmPreset(presetId)
 			-- For now, this is just a shell
 			LrDialogs.message(
 				LOC "$$$/FilmEmulation/Applied/Title=Film Preset Applied",
-				presetId .. " preset would be applied here.",
+				LOC( "$$$/FilmEmulation/Applied/Message=^1 preset would be applied here.", presetId ),
 				"info"
 			)
 		end
