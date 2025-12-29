@@ -7,7 +7,6 @@ Provides plugin information to Lightroom Plugin Manager
 ------------------------------------------------------------------------------]]
 
 local LrView = import 'LrView'
-local LrHttp = import 'LrHttp'
 
 return {
 	

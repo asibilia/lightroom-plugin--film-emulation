@@ -113,7 +113,7 @@ local function showDialog()
 			local selectedIndex = properties.selectedPresetIndex
 			local selectedPreset = filmPresets[selectedIndex]
 			if selectedPreset then
-				applyFilmPreset(selectedPreset.name)
+				applyFilmPreset(selectedPreset.id)
 			end
 		end
 		
