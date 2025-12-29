@@ -11,8 +11,6 @@ local LrBinding = import 'LrBinding'
 local LrDialogs = import 'LrDialogs'
 local LrView = import 'LrView'
 local LrApplication = import 'LrApplication'
-local LrDevelopController = import 'LrDevelopController'
-local LrTasks = import 'LrTasks'
 
 -- Film presets available
 local filmPresets = {
