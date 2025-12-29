@@ -47,16 +47,13 @@ local function applyFilmPreset(presetId)
 	-- Placeholder for actual preset application
 	-- In a full implementation, this would apply develop settings
 	catalog:withWriteAccessDo(
-		"Apply Film Preset",
+		LOC "$$$/FilmEmulation/ApplyPreset/OperationName=Apply Film Preset",
 		function()
 			-- This is where we would apply the actual develop settings
 			-- For now, this is just a shell
 			LrDialogs.message(
 				LOC "$$$/FilmEmulation/Applied/Title=Film Preset Applied",
-				string.format(
-					LOC "$$$/FilmEmulation/Applied/Message=The %s preset would be applied here.",
-					presetId
-				),
+				presetId .. " preset would be applied here.",
 				"info"
 			)
 		end
