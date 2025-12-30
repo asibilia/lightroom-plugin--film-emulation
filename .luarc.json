@@ -1,0 +1,14 @@
+{
+  "diagnostics": {
+    "globals": [
+      "import",
+      "LOC",
+      "_PLUGIN",
+      "require"
+    ]
+  },
+  "runtime": {
+    "version": "Lua 5.1"
+  }
+}
+
